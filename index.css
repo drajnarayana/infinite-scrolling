@@ -1,0 +1,29 @@
+#infinite{
+    height:450px;
+    width:30%;
+    margin: auto;
+    margin-top:50px;
+    border:15px solid #800000;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+li{
+    list-style: none;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 550;
+}
+
+::-webkit-scrollbar{
+    height:20px;
+    width:15px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background:#757475;
+    border-radius: 5px;
+}
+

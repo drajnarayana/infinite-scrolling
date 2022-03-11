@@ -9,8 +9,10 @@ var load=()=>{
         ul.append(item)
         
     }
+    
 }
 infinite.addEventListener('scroll',function(){
+   
   if(infinite.scrollTop + infinite.clientHeight >= infinite.scrollHeight){
      load()
     }
